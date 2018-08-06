@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import axios from 'axios';
 import Map from './Map';
-import { Sidebar, Segment, Button, Menu, Icon } from 'semantic-ui-react'
+import {addVendorsToMap} from '../utils/mapUtils';
+import { Sidebar, Segment, Button, Menu, Icon } from 'semantic-ui-react';
 import '../css/sidebar.css';
 
 class SidebarLeftUncover extends Component {
@@ -25,6 +26,7 @@ class SidebarLeftUncover extends Component {
 			this.setState({price});
 		}, 30000);
 	}
+
 
 	render() {
 		const { visible } = this.state

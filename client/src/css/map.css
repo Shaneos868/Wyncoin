@@ -29,6 +29,13 @@
   z-index: 5000;
 }
 
+#get-vendors {
+  position: absolute;
+  bottom: 13%;
+  left: 2.5%;
+  z-index: 5000;
+}
+
 .map-popup {
   min-height: 125px;
   min-width: 125px;
